@@ -1,0 +1,28 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:crafting_table"
+    },
+    "title": {
+      "translate": "\u00A75奇妙成就？"
+    },
+    "description": {
+      "translate": "\u00A7b好多\u00A72奇奇怪怪的\u00A75成就\u00A7aBy.A1_Panda"
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false,
+    "background": "minecraft:textures/gui/advancements/backgrounds/stone.png"
+  },
+  "criteria": {
+    "zqdl": {
+      "trigger": "minecraft:tick"
+    }
+  },
+  "requirements": [
+    [
+      "zqdl"
+    ]
+  ]
+}

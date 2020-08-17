@@ -1,0 +1,68 @@
+{
+    "parent": "zqdl:zqdl/zqdl",
+    "display": {
+      "icon": {
+        "item": "minecraft:pufferfish"
+      },
+      "title": {
+        "translate": "\u00A76老八\u00A75继承人"
+      },
+      "description": {
+        "translate": "吃下所有\u00A7c有毒\u00A7r的食物！"
+      },
+      "frame": "challenge",
+      "show_toast":true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "rewards": {
+      "experience": 1000
+    },
+    "criteria": {
+      "pufferfish": {
+        "trigger": "minecraft:consume_item",
+        "conditions": {
+            "item": {
+                "item": "minecraft:pufferfish"
+            }
+        }
+      },
+      "rotten_flesh": {
+        "trigger": "minecraft:consume_item",
+        "conditions": {
+            "item": {
+                "item": "minecraft:rotten_flesh"
+            }
+        }
+      },
+      "spider_eye": {
+        "trigger": "minecraft:consume_item",
+        "conditions": {
+            "item": {
+                "item": "minecraft:spider_eye"
+            }
+        }
+      },"poisonous_potato": {
+        "trigger": "minecraft:consume_item",
+        "conditions": {
+            "item": {
+                "item": "minecraft:poisonous_potato"
+            }
+        }
+      }
+    },
+    "requirements": [
+        [
+            "pufferfish"
+        ],
+        [
+            "rotten_flesh"
+        ],
+        [
+            "spider_eye"
+        ],
+        [
+            "poisonous_potato"
+        ]
+    ]
+  }
